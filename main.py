@@ -52,7 +52,7 @@ prompt = PromptTemplate(
 )
 
 # LLM and memory setup
-llm = Ollama(model="llama3", base_url="https://7afdc15e5ab0.ngrok-free.app")
+llm = Ollama(model="llama3", base_url="https://eab600d42836.ngrok-free.app")
 memory = ConversationBufferMemory()
 
 # ConversationChain with custom prompt
